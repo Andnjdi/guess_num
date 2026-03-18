@@ -7,7 +7,6 @@ public class main {
         Random rand = new Random();
         System.out.println("\t\t\t\tGame 'GUESS NUMBER'");
         int hidden_num = rand.nextInt(100) + 1;
-        System.out.println("*test" + hidden_num);
         int attemps = 0;
         while (true) {
             System.out.print("Guess num (1-100): ");
