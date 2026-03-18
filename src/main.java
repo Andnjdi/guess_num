@@ -33,5 +33,6 @@ public class main {
                 System.out.println("My number more");
             }
         }
+        scan.close();
     }
 }
